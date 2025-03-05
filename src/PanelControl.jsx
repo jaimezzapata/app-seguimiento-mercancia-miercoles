@@ -1,20 +1,9 @@
+import MenuLateral from './MenuLateral';
 import './PanelControl.css';
 const PanelControl = () => {
   return (
     <section className="panel-control">
-      <aside className='panel-control-aside'>
-        <div>
-          <img src="" alt="Logo" />
-        </div>
-        <nav>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </nav>
-      </aside>
+      <MenuLateral />
       <section className='panel-control-section'>
         <div className='panel-control-card'>
           <section></section>
