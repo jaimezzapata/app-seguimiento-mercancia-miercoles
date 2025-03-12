@@ -1,5 +1,6 @@
 import logouser from './assets/1202.jpg'
 function MenuLateral() {
+
   return (
     <aside className='panel-control-aside'>
       <div>

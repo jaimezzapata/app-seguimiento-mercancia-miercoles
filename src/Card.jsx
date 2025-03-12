@@ -1,7 +1,10 @@
-function Card() {
+function Card({ cliente, ciudad }) {
   return (
     <div className='panel-control-card'>
-      <section></section>
+      <section>
+        <p>Cliente: {cliente}</p>
+        <p>Ciudad: {ciudad}</p>
+      </section>
       <section>
         <p>Ver</p>
       </section>
